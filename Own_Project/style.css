@@ -1,0 +1,166 @@
+body{
+    background-color: #fff0e5;
+}
+
+.box{
+    height: 50px;
+    border: 1px solid black;
+    width: 400px;
+}
+
+#loginbox > .box{
+    background-color: white;
+}
+
+#password > .box{
+    background-color: #3a10e5;
+}
+
+#password > .box > p{
+    color: white;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    padding: 0px;
+    margin-left: 22px;
+}
+
+#password > p{
+    color: #3a10e5;
+}
+
+#images > p{
+    color: #3a10e5;
+}
+
+#main{
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 8%;
+    left: 35%;
+}
+
+p{
+    font-family:'Roboto', sans-serif;
+}
+
+#main > p{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.lean{
+    margin-bottom: 8px;
+}
+
+#password > .box >{
+    position: relative;
+}
+
+#password > .box > p{
+    position: absolute;
+    left: 170px;
+    bottom: 121px;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+#images > p#black{
+    color: black;
+}
+
+#images > p#signup{
+    margin-left: 170px;
+}
+
+@media(min-width : 821px) and (max-width : 1250px){
+    #main{
+        height: 75%;
+        width: 60%;
+        margin-left: -90px;
+
+    }
+
+    #password > .box > p{
+        position: static;
+        text-align: center;
+        object-fit: cover;
+    }
+
+    #images{
+        display: inline;
+        object-fit: cover;
+    }
+
+}
+
+@media(min-width : 607px)and (max-width : 820px){
+    #main{
+        height: 75%;
+        width: 65%;
+        margin-left: -100px;
+        object-fit: cover;
+    }
+
+    #password > .box > p{
+        position: static; 
+        text-align: center;
+        object-fit: cover;
+    }
+
+    #images{
+        display: inline;
+        object-fit: cover;
+    }
+
+}
+
+@media(max-width : 606px){
+    #main{
+        height: 75%;
+        width: 65%;
+        margin-left : -150px;
+        object-fit: cover;
+    }
+
+    #main > p{
+        font-size: 20px;
+    }
+
+    .box{
+        height: 50px;
+        border: 1px solid black;
+        width: 300px;
+    }
+
+    .logo{
+        height: 25px;
+        width: 25px;
+        border: 1px solid black;
+        margin-left: 22px;
+        display: inline-block;
+    }
+
+    #password > .box > p{
+        position: static; 
+        text-align: center;
+        object-fit: cover;
+    }
+
+    #images{
+        display: inline;
+        object-fit: cover;
+    }
+
+    #images > p#signup{
+        font-size: 13px;
+        margin-left: 90px;
+    }
+    
+
+}
